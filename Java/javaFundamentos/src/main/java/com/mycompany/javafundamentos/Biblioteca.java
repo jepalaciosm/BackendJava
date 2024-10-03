@@ -14,5 +14,9 @@ public class Biblioteca {
         Libro libro = new Libro("El libro Numero 1",  "John",  "M",  200);
         
         libro.imprimirInformacion();
+        
+        Empleado emp1 =new Empleado("JOhn", 32);
+        //System.out.println("Nuestro primer empleado es: "+emp1.nombre);
+        System.out.println("Nuestro primer empleado es: "+emp1.getNombre());
     }
 }
