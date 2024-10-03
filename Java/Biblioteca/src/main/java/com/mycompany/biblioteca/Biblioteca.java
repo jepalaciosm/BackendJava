@@ -9,7 +9,7 @@ package com.mycompany.biblioteca;
  *
  * @author Netec
  */
-public class Main {
+public class Biblioteca {
     public static void main(String[] args) {
         Libro libro = new Libro("El libro Numero 1",  "John",  "M",  200);
         
