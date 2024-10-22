@@ -11,12 +11,18 @@ package com.mycompany.javafundamentos;
  */
 public class Biblioteca {
     public static void main(String[] args) {
+        //Ejercicio 1
         Libro libro = new Libro("El libro Numero 1",  "John",  "M",  200);
         
         libro.imprimirInformacion();
-        
-        Empleado emp1 =new Empleado("JOhn", 32);
+        //Ejercicio 2
+        //Empleado emp1 =new Empleado("JOhn", 32);
         //System.out.println("Nuestro primer empleado es: "+emp1.nombre);
-        System.out.println("Nuestro primer empleado es: "+emp1.getNombre());
+        //System.out.println("Nuestro primer empleado es: "+emp1.getNombre());
+        
+        //Ejercicio 3
+        
+        
+        //Ejercicio 4
     }
 }
