@@ -1,0 +1,1 @@
+docker run --name db-mysql -e MYSQL_ROOT_PASSWORD=JavaEspJohn2024* -p 3307:3306 -v /etc/docker/test-mysql:/etc/mysql/conf.d -v final-mysql-data:/var/lib/mysql -d mysql
