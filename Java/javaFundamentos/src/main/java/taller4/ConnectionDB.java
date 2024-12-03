@@ -10,7 +10,9 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Netec
+ * @author jopalaci
+ * La base datos se creó con docker en local usando la sentencia
+ * docker run --name netec -e MYSQL_ROOT_PASSWORD=sasa -p 3301:3306/tcp -d mysql:8.2 
  */
 public class ConnectionDB {
     private String jdbcUrl ="jdbc:mysql://localhost:3301/caja";
